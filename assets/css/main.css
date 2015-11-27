@@ -784,6 +784,11 @@
 
 /* Footer */
 
+#footer-text{
+    font-size: 12px;
+    letter-spacing: 0.25em;
+}
+
 	#footer {
 		position: fixed;
 		bottom: 0;
