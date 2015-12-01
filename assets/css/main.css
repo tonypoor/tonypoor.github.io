@@ -142,6 +142,10 @@
 		margin: 0 0 1em 0;
 	}
 
+    h1{
+        color: #aaaaaa;
+    }
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #74797f;
 		font-weight: 300;
@@ -151,7 +155,9 @@
 	}
 
 		h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {
+/*
 			color: #64a9e9;
+*/
 			font-weight: 300;
 		}
 
