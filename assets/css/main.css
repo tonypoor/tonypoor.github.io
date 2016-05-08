@@ -638,7 +638,7 @@
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				text-align: center;
+				text-align: left;
 				width: 100%;
 			}
 
@@ -648,6 +648,7 @@
 
 				#wrapper footer {
 					margin: 0.5em 0 0 0;
+                    text-align: center;
 				}
 
 					#wrapper footer ul {
