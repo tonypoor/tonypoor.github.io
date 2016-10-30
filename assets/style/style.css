@@ -104,13 +104,18 @@ body {
 
 body a {
     text-decoration: none;
-    color: black;
+    color: #0000FF;
 }
 
 p.header-text {
     opacity: 1;
     font-weight: 700;
     font-size: 16px;
+}
+
+p.header-text a{
+        color: #000;
+
 }
 
 h2 {
@@ -142,7 +147,12 @@ img {
 
 i {
     margin-right: 15px;
+    color: #000;
     opacity: 0.3
+}
+
+i:hover{
+    opacity: 1;
 }
 
 div.main-section {
@@ -161,7 +171,18 @@ div.icons {
     margin-top: 50px;
 }
 
+
+@media only screen and (min-width: 64.063em) {
+
+    body{
+        padding: 4vw;
+    }
+
+} /* min-width 1025px, large screens */
+
+
 @media
+
 /* Fairly small screens including iphones */
 
 only screen and (max-width: 500px),
