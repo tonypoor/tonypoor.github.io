@@ -139,6 +139,11 @@ p {
     opacity: 0.8;
 }
 
+p a:hover{
+    transition: .2s;
+    opacity: 0.4; 
+}
+
 img {
     vertical-align: middle;
     margin-right: 8px;
@@ -153,6 +158,7 @@ i {
 }
 
 i:hover{
+    transition: .2s;
     opacity: 1;
 }
 
