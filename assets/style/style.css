@@ -124,6 +124,15 @@ h3 {
     font-weight: 400;
 }
 
+h3 a{
+    color: #000;
+}
+
+h3 a:hover{
+    transition: .2s;
+    opacity: 0.4;
+}
+
 p {
     font-size: 15px;
     font-weight: 300;
