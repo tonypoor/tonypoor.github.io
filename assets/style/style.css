@@ -107,9 +107,8 @@ p.header-text {
     font-size: 16px;
 }
 
-p.header-text a{
-        color: #000;
-
+p.header-text a {
+    color: #000;
 }
 
 h2 {
@@ -133,9 +132,9 @@ p {
     opacity: 0.8;
 }
 
-p a:hover{
+p a:hover {
     transition: .2s;
-    opacity: 0.4; 
+    opacity: 0.4;
 }
 
 img {
@@ -151,7 +150,7 @@ i {
     opacity: 0.3;
 }
 
-i:hover{
+i:hover {
     transition: .2s;
     opacity: 1;
 }
@@ -173,28 +172,22 @@ div.icons {
 }
 
 @media only screen and (min-width: 64.063em) {
-
-    body{
+    body {
         padding: 4vw;
     }
+}
 
-} /* min-width 1025px, large screens */
 
+/* min-width 1025px, large screens */
 
 @media
-
 /* Fairly small screens including iphones */
 
 only screen and (max-width: 500px),
-
 /* iPads */
 
 only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    #wrapper,
-    #border-t,
-    #border-b,
-    #border-l,
-    #border-r {
+    #border-t, #border-b, #border-l, #border-r {
         display: none;
     }
 }
