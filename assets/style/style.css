@@ -51,12 +51,6 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
-#wrapper {
-    width: 9999px;
-    position: fixed;
-    height: 9999px;
-}
-
 #border-t,
 #border-b,
 #border-l,
